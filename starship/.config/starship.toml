@@ -31,10 +31,8 @@ truncation_symbol = '…/'
 truncate_to_repo = false
 
 [directory.substitutions]
-'Documents' = '󰈙'
-'Downloads' = ' '
-'Music' = ' '
-'Pictures' = ' '
+'~' = ' '
+'downloads' = ' '
 
 [git_branch]
 style = 'fg:green'
