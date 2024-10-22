@@ -21,6 +21,7 @@ $character"""
 
 add_newline = true
 palette = 'nord'
+command_timeout = 800
 # ~/.config/starship.toml
 
 [directory]

@@ -72,3 +72,11 @@ eval "$(zoxide init zsh)"
 alias cd="z"
 
 alias c="clear"
+
+# pnpm
+export PNPM_HOME="/home/baqir/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
